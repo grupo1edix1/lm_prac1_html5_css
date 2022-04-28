@@ -27,7 +27,19 @@ body{
     display: flex;
 }
 
-ul{
+.block{
+    padding-bottom: 30px;
+    background-color: grey;
+    line-height: 1.0;
+}
+
+article{
+    border: crimson 1px solid;
+    background-color: rgb(78, 1, 1);
+    padding: 10px;
+}
+
+nav ul{
     margin:0;
     padding: 0;
 }
@@ -65,6 +77,7 @@ header #menu{
 }
 
 header #menu h1{
+    font-size: 45px;
     margin:0;
 }
 
@@ -85,7 +98,7 @@ header nav{
     text-align: right;
     padding-right: 5vw;
     font-size: 7vw;
-    color: rgb(207, 4, 4);
+    color: rgb(255, 255, 255);
     text-shadow: 2px 3px #0000006b;
 }
 
@@ -105,7 +118,7 @@ header nav{
 }
 
 #what {
-    padding: 0px;
+    padding-bottom: 10px;
     background-color: rgb(182, 181, 181);
     text-align: center;
 }
@@ -128,7 +141,53 @@ header nav{
 }
 
 #noticias {
-    padding: 20px;
-    background-color: rgb(226, 221, 221);
+    width:30%;
+    padding: 0px;
+    padding-left: 10px;
+    background-color: grey;
+    color: #ffffff;
     text-align: center;
 }
+
+#noticias img{
+    max-width: 600px;
+}
+
+#noticias a{
+    width: 100px;
+    display: block;
+    background: #313131; color: #ffffff; 
+    font-weight: bold;
+    line-height: 50px; 
+    border-radius: 20px; 
+    text-decoration: none;
+    text-shadow: 2px 3px #0000006b;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#noticias p{
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 12px;
+}
+
+#noticias h3{
+    font-size: 25px;
+}
+
+footer {
+    position:static;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    background-color: rgb(57, 57, 61);
+    color: white;
+    text-align: center;
+  }
+
+@media screen and (max-width:850px) {
+    
+   
+}  
